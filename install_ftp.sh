@@ -7,7 +7,7 @@
 
 #variables de l'script
 USER_NAME="tintin"
-USER_FOLDER="/var/www/html/"
+USER_FOLDER="/var/www/html/$USER_NAME"
 
 #instal•lar el servidor
 apt-get update
